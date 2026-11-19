@@ -1,0 +1,39 @@
+body {
+    background-color: #f4f4f4;
+    color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+}
+
+h1 {
+    color: #0b3d91;
+}
+
+.caja-1 {
+    background-color: #ffffff;
+    border: 5px solid #0b3d91;
+    margin: 10px;
+    padding: 10px;
+}
+
+.caja-2 {
+    background-color: #e6ffe6;
+    border: 3px dotted #2e7d32;
+    margin: 25px;
+    padding: 25px;
+}
+
+.caja-3 {
+    background-color: #ffe6e6;
+    border: 4px double #c62828;
+    border-radius: 20px;
+    margin: 40px 10px;
+    padding: 20px;
+}
+
+.caja-4 {
+    background-color: #fff8e1;
+    border: 1px solid #757575;
+    margin: 5px 0 30px 0;
+    padding: 35px;
+}
