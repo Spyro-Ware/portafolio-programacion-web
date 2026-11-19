@@ -1,0 +1,68 @@
+body {
+    background-color: #fafafa;
+    color: #222222;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 16px;
+    margin: 40px;
+}
+
+h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 32px;
+    color: #0b3d91;
+}
+
+h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 22px;
+    color: #333333;
+}
+
+a {
+    color: #0b3d91;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e65100;
+    text-decoration: underline;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 12px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.boton-principal {
+    background-color: #0b3d91;
+    color: #ffffff;
+}
+
+.boton-principal:hover {
+    background-color: #08306e;
+}
+
+.boton-secundario {
+    background-color: #e0e0e0;
+    color: #222222;
+}
+
+.boton-secundario:hover {
+    background-color: #f2c94c;
+    color: #000000;
+}
+
+.texto-grande {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 24px;
+}
+
+.texto-chico {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 13px;
+}
