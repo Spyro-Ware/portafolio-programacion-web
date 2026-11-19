@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Formulario de contacto</title>
+</head>
+<body>
+<h1>Formulario de contacto</h1>
+<p>Llena los datos para dejar un mensaje. Los campos con * son obligatorios.</p>
+
+<form action="#" method="post">
+<p>
+<label for="nombre">Nombre completo *</label><br>
+<input type="text" id="nombre" name="nombre" required>
+</p>
+
+<p>
+<label for="correo">Correo electrónico *</label><br>
+<input type="email" id="correo" name="correo" required>
+</p>
+
+<p>
+<label for="grupo">Grupo</label><br>
+<select id="grupo" name="grupo">
+<option value="3-H" selected>3-H</option>
+<option value="3-A">3-A</option>
+<option value="3-B">3-B</option>
+<option value="3-C">3-C</option>
+<option value="3-D">3-D</option>
+<option value="3-E">3-E</option>
+<option value="3-F">3-F</option>
+<option value="3-G">3-G</option>
+<option value="otro">Otro</option>
+</select>
+</p>
+
+<p>
+<label for="mensaje">Mensaje *</label><br>
+<textarea id="mensaje" name="mensaje" rows="5" cols="40" required></textarea>
+</p>
+
+<p>
+<button type="submit">Enviar</button>
+</p>
+</form>
+</body>
+</html>
