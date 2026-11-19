@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="820" viewBox="0 0 460 820" role="img" aria-label="Diagrama de flujo del pedido por adelantado en la cooperativa">
+  <rect width="460" height="820" fill="#ffffff"/>
+  <style>
+    text { font-family: sans-serif; font-size: 14px; fill: #000000; }
+    .shape { fill: #e8f0fe; stroke: #000000; stroke-width: 2; }
+    .decision { fill: #fff3cd; stroke: #000000; stroke-width: 2; }
+    .io { fill: #d4edda; stroke: #000000; stroke-width: 2; }
+    .arrow { stroke: #000000; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+    .label { font-size: 13px; }
+  </style>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#000000"/>
+    </marker>
+  </defs>
+
+  <ellipse cx="230" cy="40" rx="90" ry="28" class="shape"/>
+  <text x="230" y="45" text-anchor="middle">Inicio</text>
+
+  <line x1="230" y1="68" x2="230" y2="95" class="arrow"/>
+  <polygon points="150,95 310,95 290,145 130,145" class="io"/>
+  <text x="220" y="123" text-anchor="middle">Ver menú</text>
+
+  <line x1="230" y1="145" x2="230" y2="175" class="arrow"/>
+  <polygon points="230,175 335,228 230,281 125,228" class="decision"/>
+  <text x="230" y="224" text-anchor="middle">¿Quieres pedir?</text>
+
+  <text x="345" y="205" class="label">No</text>
+  <line x1="335" y1="228" x2="400" y2="228" class="arrow"/>
+  <text x="400" y="215" text-anchor="middle" class="label">No se hizo</text>
+  <text x="400" y="232" text-anchor="middle" class="label">pedido</text>
+  <line x1="400" y1="245" x2="400" y2="700" class="arrow"/>
+  <line x1="400" y1="700" x2="325" y2="700" class="arrow"/>
+
+  <text x="245" y="300" class="label">Sí</text>
+  <line x1="230" y1="281" x2="230" y2="310" class="arrow"/>
+  <rect x="140" y="310" width="180" height="50" class="shape"/>
+  <text x="230" y="340" text-anchor="middle">Elegir productos</text>
+
+  <line x1="230" y1="360" x2="230" y2="390" class="arrow"/>
+  <rect x="140" y="390" width="180" height="50" class="shape"/>
+  <text x="230" y="420" text-anchor="middle">Pedir por adelantado</text>
+
+  <line x1="230" y1="440" x2="230" y2="470" class="arrow"/>
+  <rect x="140" y="470" width="180" height="50" class="shape"/>
+  <text x="230" y="500" text-anchor="middle">Pagar</text>
+
+  <line x1="230" y1="520" x2="230" y2="550" class="arrow"/>
+  <rect x="140" y="550" width="180" height="50" class="shape"/>
+  <text x="230" y="580" text-anchor="middle">Recoger el pedido</text>
+
+  <line x1="230" y1="600" x2="230" y2="630" class="arrow"/>
+  <ellipse cx="230" cy="660" rx="90" ry="28" class="shape"/>
+  <text x="230" y="665" text-anchor="middle">Fin</text>
+</svg>
