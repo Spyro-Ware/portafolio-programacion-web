@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preparatoria 9 - Contacto</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Preparatoria 9</h1>
+        <p>Escuela Preparatoria No. 9 de la Universidad de Guadalajara, en Zapopan, Jalisco</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="horario.html">Horario</a>
+        <a href="cooperativa.html">Cooperativa</a>
+        <a href="contacto.html">Contacto</a>
+        <button id="boton-modo-oscuro" type="button">Modo oscuro</button>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Contacto</h2>
+            <p>Si tienes alguna duda sobre este sitio, sobre mi horario o sobre la idea para la cooperativa, déjame un mensaje con este formulario.</p>
+            <form id="formulario-contacto">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre">
+
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" name="correo" placeholder="Escribe tu correo">
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje"></textarea>
+
+                <button type="submit">Enviar mensaje</button>
+            </form>
+            <p id="mensaje-formulario"></p>
+        </section>
+
+        <section>
+            <h2>¿Dónde está la Preparatoria 9?</h2>
+            <p>La Escuela Preparatoria No. 9 de la Universidad de Guadalajara está en Zapopan, Jalisco. Es una escuela del Sistema de Educación Media Superior de la UdeG.</p>
+            <p><a class="boton" href="index.html">Volver al inicio</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Sitio temático - Preparatoria 9, Zapopan</p>
+        <p>Actividad integradora 3 - Programación web</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
