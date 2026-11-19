@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="620" viewBox="0 0 400 620" role="img" aria-label="Diagrama completo del pedido en la cooperativa">
+  <rect width="400" height="620" fill="#ffffff"/>
+  <style>
+    text { font-family: sans-serif; font-size: 14px; fill: #000000; }
+    .shape { fill: #e8f0fe; stroke: #000000; stroke-width: 2; }
+    .decision { fill: #fff3cd; stroke: #000000; stroke-width: 2; }
+    .io { fill: #d4edda; stroke: #000000; stroke-width: 2; }
+    .arrow { stroke: #000000; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+    .label { font-size: 13px; }
+  </style>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#000000"/>
+    </marker>
+  </defs>
+
+  <ellipse cx="200" cy="35" rx="85" ry="26" class="shape"/>
+  <text x="200" y="40" text-anchor="middle">Inicio</text>
+
+  <line x1="200" y1="61" x2="200" y2="85" class="arrow"/>
+  <polygon points="125,85 275,85 255,130 105,130" class="io"/>
+  <text x="190" y="110" text-anchor="middle">Ver menú</text>
+
+  <line x1="200" y1="130" x2="200" y2="155" class="arrow"/>
+  <polygon points="200,155 300,200 200,245 100,200" class="decision"/>
+  <text x="200" y="196" text-anchor="middle">¿Pedir?</text>
+
+  <text x="215" y="265" class="label">Sí</text>
+  <line x1="200" y1="245" x2="200" y2="270" class="arrow"/>
+  <rect x="115" y="270" width="170" height="45" class="shape"/>
+  <text x="200" y="298" text-anchor="middle">Pedir y pagar</text>
+
+  <line x1="200" y1="315" x2="200" y2="340" class="arrow"/>
+  <rect x="115" y="340" width="170" height="45" class="shape"/>
+  <text x="200" y="368" text-anchor="middle">Recoger el pedido</text>
+
+  <line x1="200" y1="385" x2="200" y2="410" class="arrow"/>
+  <ellipse cx="200" cy="438" rx="85" ry="26" class="shape"/>
+  <text x="200" y="443" text-anchor="middle">Fin</text>
+
+  <text x="310" y="180" class="label">No</text>
+  <line x1="300" y1="200" x2="350" y2="200" class="arrow"/>
+  <line x1="350" y1="200" x2="350" y2="438" class="arrow"/>
+  <line x1="350" y1="438" x2="290" y2="438" class="arrow"/>
+</svg>
