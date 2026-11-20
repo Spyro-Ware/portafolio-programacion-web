@@ -1,57 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<title>JS 3 - Nacionalidad y edad</title>
-<style>
-body { font-family: Arial, sans-serif; margin: 30px; background-color: #f2f2f2; color: #222; }
-h1 { color: #1a5276; }
-button { padding: 10px 18px; font-size: 16px; margin: 8px 0; cursor: pointer; }
-p { max-width: 600px; }
-#resultado { font-weight: bold; background-color: #ffffff; border: 1px solid #999; padding: 12px; max-width: 600px; }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if - Condicion</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
 </head>
 <body>
-<h1>JS 3 - Nacionalidad y edad</h1>
-<p>En esta actividad se pide la nacionalidad y la edad con <strong>prompt</strong>. La edad se convierte a número con <strong>parseInt</strong> y con <strong>if</strong> se revisa si la persona es mayor o menor de edad, y si es mexicana o de otro país. El resultado se muestra con <strong>alert</strong> y también en la página.</p>
 
-<button onclick="revisarDatos()">Escribir mis datos</button>
-
-<p id="resultado">Aquí aparecerá tu resultado.</p>
-
-<script>
-function revisarDatos() {
-    var nacionalidad = prompt("¿Cuál es tu nacionalidad? Por ejemplo: mexicano, mexicana, colombiano, española...");
-    if (nacionalidad === null || nacionalidad === "") {
-        alert("No escribiste tu nacionalidad.");
-        return;
-    }
-
-    var edad = parseInt(prompt("¿Cuántos años tienes?"));
-    if (isNaN(edad)) {
-        alert("Eso no es una edad válida. Intenta de nuevo.");
-        return;
-    }
-
-    var textoNacionalidad = nacionalidad.toLowerCase();
-    var esMexicano = (textoNacionalidad === "mexicano" || textoNacionalidad === "mexicana" || textoNacionalidad === "mexico" || textoNacionalidad === "méxico");
-
-    var mensaje = "";
-    if (edad >= 18) {
-        mensaje = "Eres mayor de edad, tienes " + edad + " años. ";
-    } else {
-        mensaje = "Eres menor de edad, tienes " + edad + " años. ";
-    }
-
-    if (esMexicano) {
-        mensaje += "Eres de México.";
-    } else {
-        mensaje += "Eres de otro país (" + nacionalidad + ").";
-    }
-
-    alert(mensaje);
-    document.getElementById("resultado").textContent = mensaje;
-}
-</script>
 </body>
 </html>
