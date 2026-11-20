@@ -10,7 +10,7 @@ Entrega: sábado 21 de noviembre de 2026
 
 1. `07-html-1-texto-titulos` - HTML 1: texto y títulos.
 2. `08-html-2-receta` - HTML 2: receta de enchiladas suizas con ingredientes y pasos.
-3. `09-html-3-formulario` - HTML 3: formulario.
+3. `09-html-3-formulario` - HTML 3: cuestionario sobre gustos personales.
 4. `10-html-4-horario-v1` - HTML 4: horario en tabla simple.
 5. `11-html-5-horario-v2` - HTML 5: horario en tabla con CSS.
 6. `12-css-1-colores` - CSS 1: colores de texto y fondo.
