@@ -4,87 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tecnología y Gadgets</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
-<body style="background-color: #17191C; color: #E5E5E5; margin: 0; font-family: Arial, sans-serif;">
+<body>
 
-    <header style="background-color: #22252A; padding: 25px;">
+    <header id="encabezado">
+        <img src="https://cdn-icons-png.flaticon.com/128/3128/3128282.png" width="100" alt="Logo">
+        <h1 id="titulo">Tecnología y Gadgets</h1>
+        <p id="subtitulo">Reviews, noticias y gaming</p>
 
-        <table>
-            <tr>
-                <td>                                                                         <img src="https://cdn-icons-png.flaticon.com/128/3128/3128282.png" alt="Logo" width="70" height="70">
-                </td>
-                <td style="padding-left: 15px;">
-                    <h1 style="margin: 0;">Tecnología y Gadgets</h1>
-                    <p style="color: #BFC3C9; margin: 5px 0 0 0;">Reviews, noticias y gaming</p>
-                </td>                                                                 </tr>
-        </table>                                                          
-        <nav style="background-color: #303339; padding: 14px; margin-top: 20px; border-left: 5px solid #C77B85;">
-            <a href="Index.HTML" style="color: #C77B85; text-decoration: none; font-weight: bold;">Reviews</a>
-            <span style="color: #BFC3C9;">|&nbsp;&nbsp;</span>
-            <a href="Sitio.HTML" style="color: #E5E5E5; text-decoration: none;">Noticias</a>
-            <span style="color: #BFC3C9;">|&nbsp;&nbsp;</span>
-            <a href="Sitio2.HTML" style="color: #E5E5E5; text-decoration: none;">Sobre mí</a>
+        <nav id="menu">
+            <a href="index.html">Inicio</a>
         </nav>
-
     </header>
 
-    <main style="padding: 25px;">
-
-        <h2 style="color: #C77B85;">Lo último en tecnología</h2>
-
-        <p style="color: #BFC3C9;">
-            Aquí encontrarás reseñas de
+    <main id="contenido">
+        <h2 id="bienvenido">Bienvenido</h2>
+        <p>
+            Aquí encontrarás reviews de celulares,
             computadoras y componentes para gaming.
         </p>
 
-        <hr style="border: 1px solid #C77B85; margin: 25px 0;">
+        <hr>
 
-        <h2 style="color: #C77B85;">Productos destacados</h2>
 
-        <table cellspacing="15">
-            <tr>
-                <td valign="top" width="260" style="background-color: #272A2F; padding: 20px; border-top: 4px solid #C77B85;">
-                    <img src="https://i5.walmartimages.com/asr/ae67e38c-1833-4b4f-bd78-1f94528766a9.a5e927a34130d1a6a9b407a83bd378da.png" alt="Samsung Galaxy A56" width="220">
-                    <h3 style="color: #C77B85;">Samsung Galaxy A56</h3>
-                    <p style="color: #BFC3C9;">
-                       Tiene pantalla AMOLED,
-                        buenas cámaras y batería para el uso diario.
-                       Es una buena opción calidad-precio.
-                    </p>
-                </td>
+        <h2 id="destacadas">Reviews destacadas</h2>
 
-                <td valign="top" width="260" style="background-color: #272A2F; padding: 20px; border-top: 4px solid #C77B85;">
-                    <img src="https://dlcdnwebimgs.asus.com/gain/B8A2F158-05F5-4F74-BBC5-07553D6017BD"
-alt="Laptop ASUS ROG Zephyrus G14" width="220">
-                    <h3 style="color: #C77B85;">Laptops gaming</h3>
-                    <p style="color: #BFC3C9;">
-                        La ASUS ROG Zephyrus G14 es compacta
-                        y ligera, ideal para jugar y trabajar,
-                       es de calidad.
-                    </p>
-                </td>
+        <div class="contenedor-tarjetas">
+            <div class="tarjeta">
+                <img src="https://i5.walmartimages.com/asr/ae67e38c-1833-4b4f-bd78-1f94528766a9.a5e927a34130d1a6a9b407a83bd378da.png" width="250" alt="Samsung Galaxy A56">
+                <h3>Samsung Galaxy A56</h3>
+                <p>
+                    Un celular con pantalla AMOLED,
+                    cámaras y batería para el uso diario, además es calidad precio.
+                </p>
+                <a href="review1.html" class="btn-review">Ver reseña completa</a>
+            </div>
 
-                <td valign="top" width="260" style="background-color: #272A2F; padding: 20px; border-top: 4px solid #C77B85;">
-                    <img src="https://ik.imagekit.io/intercompras/images/categories/644_image_36566.jpg" width="220">
-                    <h3 style="color: #C77B85;">Hardware para PC</h3>
-                    <p style="color: #BFC3C9;">
-                       La memoria RAM
-                        y las tarjetas gráficas que ayudan a mejorar
-                        el rendimiento de una computadora.
-                    </p>
-                </td>
-            </tr>
-        </table>
+            <div class="tarjeta">
+                <img src="https://dlcdnwebimgs.asus.com/gain/B8A2F158-05F5-4F74-BBC5-07553D6017BD" width="250" alt="Laptops gaming">
+                <h3>Laptops gaming</h3>
+                <p>
+                    La ASUS ROG Zephyrus G14 es compacta y ligera,
+                    ideal para jugar y trabajar, con gran potencia
+                    y materiales de calidad.
+                </p>
+                <a href="review2.html" class="btn-review">Ver reseña completa</a>
+            </div>
+
+            <div class="tarjeta">
+                <img src="https://ik.imagekit.io/intercompras/images/categories/644_image_36566.png" width="250" alt="Hardware para PC">
+                <h3>Hardware para PC</h3>
+                <p>
+                    Conoce los procesadores, la memoria RAM
+                    y las tarjetas gráficas.
+                </p>
+                <a href="review3.html" class="btn-review">Ver reseña completa</a>
+            </div>
+        </div>
+
+        <hr>
+
+        <section id="contacto">
+            <h2>Buzón de sugerencias</h2>
+            <p>¿Qué tecnología te gustaría que pusiéramos a prueba en nuestra próxima review? Puede ser un celular, una laptop o algún componente.</p>
+
+            <form action="#" method="post" class="formulario-contacto">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre completo" required>
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+
+                <label for="mensaje">Gadget o sugerencia:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuéntanos qué producto te interesa..." required></textarea>
+
+                <button type="submit" class="btn-enviar">Enviar sugerencia</button>
+            </form>
+        </section>
 
     </main>
 
-    <footer style="background-color: #22252A; padding: 15px; border-top: 3px solid #C77B85;">
-        <p style="color: #BFC3C9;">
-            © 2026 Tecnología y Gadgets.
-            Leonardo Santiago Briones Tafolla &amp; Josselin Celedonio Nava
-        </p>
+    <footer id="pie">
+        <p id="autor">Leonardo Santiago Briones Tafolla</p>
     </footer>
 
 </body>
 </html>
+
