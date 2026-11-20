@@ -8,7 +8,7 @@ Entrega: sábado 21 de noviembre de 2026
 
 ## Contenido
 
-1. `07-html-1-texto-titulos` - HTML 1: texto y títulos.
+1. `07-html-1-texto-titulos` - HTML 1: texto y títulos (Hola mundo, listas y definiciones).
 2. `08-html-2-receta` - HTML 2: receta de enchiladas suizas con ingredientes y pasos.
 3. `09-html-3-formulario` - HTML 3: cuestionario sobre gustos personales.
 4. `10-html-4-horario-v1` - HTML 4: horario en tabla simple.
