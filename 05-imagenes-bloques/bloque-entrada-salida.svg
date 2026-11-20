@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="300" height="120" viewBox="0 0 300 120" role="img" aria-label="Bloque de entrada y salida: paralelogramo">
-  <rect width="300" height="120" fill="#ffffff"/>
-  <polygon points="80,30 260,30 220,90 40,90" fill="#d4edda" stroke="#000000" stroke-width="2"/>
-  <text x="150" y="66" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#000000">Entrada / Salida</text>
-</svg>
