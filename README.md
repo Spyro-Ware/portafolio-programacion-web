@@ -18,6 +18,6 @@ Entrega: sábado 21 de noviembre de 2026
 8. `14-css-3-fuentes-hover` - CSS 3: fuentes y hover.
 9. `15-act-int-2-sitio-tematico` - Act Int 2: sitio web temático de Tecnología y Gadgets.
 10. `16-js-1-prompt-alert` - JS 1: prompt y alert (suma de dos números).
-11. `17-js-2-if-condiciones` - JS 2: if y condiciones.
+11. `17-js-2-if-condiciones` - JS 2: if y condiciones (edad: mayor, adolescente o niño).
 12. `18-js-3-nacionalidad-edad` - JS 3: nacionalidad y edad con prompt e if (main.js).
 13. `19-act-int-3-js-sitio-web` - Act Int 3: sitio web temático de Tecnología y Gadgets con JavaScript (botón de modo claro).
