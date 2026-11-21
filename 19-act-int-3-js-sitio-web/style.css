@@ -1,0 +1,273 @@
+
+body {
+    background-color: #17191C;
+    color: #E5E5E5;
+}
+
+
+/* ENCABEZADO */
+
+#encabezado {
+    background-color: #22252A;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;  
+}
+
+#titulo {
+    color: white;
+}
+
+#subtitulo {
+    color: #BFC3C9;
+}
+
+
+/* MENU */
+
+#menu {
+    background-color: #303339;
+    padding: 12px;
+}
+
+a {
+    color: #E5E5E5;
+}
+
+
+/* CONTENIDO GENERAL */
+
+#contenido {
+    padding: 20px;
+}
+
+
+/* REVIEWS */
+
+#bienvenido {
+    color: #C77B85;
+}
+
+.tarjeta {
+    
+    background-color: rgba(39, 42, 47, 0.85); 
+    backdrop-filter: blur(8px); 
+    padding: 20px;
+    margin: 15px;
+    width: 250px;
+    border: 1px solid rgba(57, 60, 66, 0.6);
+    border-radius: 12px;
+    transition-duration: 0.5s;
+}
+
+.contenedor-tarjetas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.tarjeta:hover {
+    transform: translateY(-8px) scale(1.02); 
+    box-shadow: 0 15px 30px rgba(199, 123, 133, 0.25); 
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    width: 33%;
+}
+
+.tarjeta img {
+    width: 70%;
+}
+
+
+/* NOTICIAS */
+
+.seccion {
+    color: #C77B85;
+}
+
+.titulo-noticias {
+    color: #FFFFFF;
+}
+
+.introduccion-noticias {
+    color: #BFC3C9;
+}
+
+.etiqueta {
+    color: #C77B85;
+}
+
+
+/* NOTICIA PRINCIPAL */
+
+.noticia-principal {
+    background-color: #22252A;
+    padding: 25px;
+    margin: 20px;
+    border: 1px solid #C77B85;
+    border-radius: 8px;
+}
+
+.noticia-principal h2 {
+    color: #FFFFFF;
+}
+
+
+/* NOTICIAS SECUNDARIAS */
+
+.noticia-secundaria {
+    background-color: #22252A;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #393C42;
+    border-radius: 8px;
+}
+
+.noticia-secundaria h3 {
+    color: #FFFFFF;
+}
+
+.noticia-secundaria p {
+    color: #BFC3C9;
+}
+
+
+/* OPINION */
+
+.opinion {
+    background-color: #303339;
+    padding: 25px;
+    margin: 20px;
+    border: 1px solid #C77B85;
+    border-radius: 8px;
+}
+
+.opinion h2 {
+    color: #FFFFFF;
+}
+
+.opinion p {
+    color: #E5E5E5;
+}
+
+
+/* PIE DE PAGINA */
+
+#pie {
+    background-color: #22252A;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;  
+}
+
+/* FUENTES */   
+body {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#titulo {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+#bienvenido {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.seccion {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.titulo-noticias {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.noticia-principal h2 {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.noticia-secundaria h3 {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.etiqueta {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.opinion h2 {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.contenedor-tarjetas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* ESTILOS BÁSICOS PARA EL FORMULARIO */
+#contacto {
+    background-color: #22252A;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #17191C;
+    color: #FFFFFF;
+    border: 1px solid #393C42;
+    border-radius: 4px;
+    box-sizing: border-box;
+     resize: none;
+}
+
+.btn-enviar {
+    background-color: #C77B85;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* MEDIA PA´ CELULARES WOW */
+@media (max-width: 768px) {
+
+    .contenedor-tarjetas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tarjeta {
+        width: 85%;
+        margin: 10px 0;
+    }
+
+    #contacto {
+        width: 90%;
+        padding: 15px;
+    }
+
+}
+/* ACT INT 3 - MODO CLARO (lo activa el botón con JavaScript) */
+#boton-modo-claro {
+    background-color: #C77B85;
+    color: #FFFFFF;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
