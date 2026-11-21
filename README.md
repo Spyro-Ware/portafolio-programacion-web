@@ -1,10 +1,7 @@
 # Portafolio de Programación web
 
 Autor: Leonardo Santiago Briones Tafolla
-Escuela: Preparatoria 9
-Grupo: 3-H
-Materia: Programación web
-Entrega: sábado 21 de noviembre de 2026
+
 
 ## Contenido
 
