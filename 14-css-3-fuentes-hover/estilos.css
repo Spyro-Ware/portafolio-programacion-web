@@ -1,68 +1,48 @@
+/* FUENTES */
 body {
-    background-color: #fafafa;
-    color: #222222;
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 16px;
-    margin: 40px;
+    font-family: 'Space Grotesk', sans-serif;
 }
 
-h1 {
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 32px;
-    color: #0b3d91;
+#titulo {
+    font-family: 'Rajdhani', sans-serif;
 }
 
-h2 {
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 22px;
-    color: #333333;
+#bienvenido {
+    font-family: 'Rajdhani', sans-serif;
 }
 
-a {
-    color: #0b3d91;
-    font-size: 18px;
-    text-decoration: none;
+.seccion {
+    font-family: 'Rajdhani', sans-serif;
 }
 
-a:hover {
-    color: #e65100;
-    text-decoration: underline;
+.titulo-noticias {
+    font-family: 'Rajdhani', sans-serif;
 }
 
-button {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    padding: 12px 20px;
-    margin: 5px;
-    border: none;
-    cursor: pointer;
+.noticia-principal h2 {
+    font-family: 'Rajdhani', sans-serif;
 }
 
-.boton-principal {
-    background-color: #0b3d91;
-    color: #ffffff;
+.noticia-secundaria h3 {
+    font-family: 'Rajdhani', sans-serif;
 }
 
-.boton-principal:hover {
-    background-color: #08306e;
+.etiqueta {
+    font-family: 'Rajdhani', sans-serif;
 }
 
-.boton-secundario {
-    background-color: #e0e0e0;
-    color: #222222;
+.opinion h2 {
+    font-family: 'Rajdhani', sans-serif;
 }
 
-.boton-secundario:hover {
-    background-color: #f2c94c;
-    color: #000000;
+.contenedor-tarjetas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
-.texto-grande {
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 24px;
-}
-
-.texto-chico {
-    font-family: "Courier New", Courier, monospace;
-    font-size: 13px;
+.tarjeta:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 15px 30px rgba(199, 123, 133, 0.25);
 }
