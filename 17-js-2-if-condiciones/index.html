@@ -1,51 +1,22 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-<meta charset="UTF-8">
-<title>JS 2 - If y Condiciones</title>
-<style>
-body { font-family: Arial, sans-serif; margin: 30px; background-color: #f2f2f2; color: #222; }
-h1 { color: #1a5276; }
-button { padding: 10px 18px; font-size: 16px; margin: 8px 0; cursor: pointer; }
-p { max-width: 600px; }
-</style>
+  <title>if - Condiciones</title>
+  <meta charset="UTF-8">
+  <script>
+    edad = prompt("Cuantos años tienes?");
+    edad = Number(edad);
+
+    if (edad >= 18) {
+      console.log("Mayor de edad, pasele adulto");
+    } else if (edad >= 13) {
+      console.log("Adolescente, saquese morrillo miado");
+    } else {
+      console.log("Niño");
+    }
+  </script>
 </head>
 <body>
-<h1>JS 2 - If y Condiciones</h1>
-<p>En esta actividad se usa <strong>if</strong> y <strong>else</strong> para decidir qué mensaje mostrar según el valor que escribe el usuario.</p>
 
-<h2>Ejemplo 1: ¿El número es mayor, igual o menor que 10?</h2>
-<p>Pulsa el botón, escribe un número y te diré si es mayor que 10, igual a 10 o menor que 10.</p>
-<button onclick="compararConDiez()">Comparar con 10</button>
-
-<h2>Ejemplo 2: ¿Aprobaste o no?</h2>
-<p>Pulsa el botón, escribe tu calificación del 0 al 10 y te diré si aprobaste.</p>
-<button onclick="revisarCalificacion()">Revisar calificación</button>
-
-<script>
-function compararConDiez() {
-    var numero = Number(prompt("Escribe un número:"));
-    if (isNaN(numero)) {
-        alert("Eso no es un número. Intenta de nuevo.");
-    } else if (numero > 10) {
-        alert("El número " + numero + " es mayor que 10.");
-    } else if (numero === 10) {
-        alert("El número es igual a 10.");
-    } else {
-        alert("El número " + numero + " es menor que 10.");
-    }
-}
-
-function revisarCalificacion() {
-    var calificacion = Number(prompt("Escribe tu calificación del 0 al 10:"));
-    if (isNaN(calificacion)) {
-        alert("Eso no es un número. Intenta de nuevo.");
-    } else if (calificacion >= 6) {
-        alert("Aprobaste con " + calificacion + ". ¡Felicidades!");
-    } else {
-        alert("No aprobaste, sacaste " + calificacion + ". Hay que estudiar más.");
-    }
-}
-</script>
 </body>
 </html>
