@@ -1,6 +1,4 @@
-// Act Int 3 - JavaScript para el sitio de Tecnologia y Gadgets
-
-// Modo claro: pregunta y cambia los colores del sitio
+// Cambiar color
 function cambiarModo() {
   var modo = prompt("Escribe claro o oscuro");
   if (modo == "claro") {
