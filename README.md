@@ -15,7 +15,7 @@ Entrega: sábado 21 de noviembre de 2026
 5. `11-html-5-horario-v2` - HTML 5: horario en tabla con CSS.
 6. `12-css-1-colores` - CSS 1: colores de texto y fondo.
 7. `13-css-2-bordes-margen` - CSS 2: bordes y margen.
-8. `14-css-3-fuentes-hover` - CSS 3: fuentes y hover.
+8. `14-css-3-fuentes-hover` - CSS 3: fuentes (Space Grotesk y Rajdhani) y hover en tarjetas.
 9. `15-act-int-2-sitio-tematico` - Act Int 2: sitio web temático de Tecnología y Gadgets.
 10. `16-js-1-prompt-alert` - JS 1: prompt y alert (suma de dos números).
 11. `17-js-2-if-condiciones` - JS 2: if y condiciones (edad: mayor, adolescente o niño).
