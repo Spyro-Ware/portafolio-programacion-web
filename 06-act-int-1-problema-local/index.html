@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Act Int 1 - Calificación final</title>
+</head>
+<body>
+  <h1>Programación web</h1>
+
+  <h2>Contexto</h2>
+  <p>En una escuela, los alumnos obtienen su calificación final mediante diferentes actividades de evaluación. Para obtener la calificación final se consideran las actividades, el examen y el proyecto, cada uno con un porcentaje diferente.</p>
+  <p>El problema está cuando se necesita calcular de manera rápida y correcta la calificación final de un alumno y determinar si logró aprobar la materia.</p>
+
+  <h2>Definición del problema</h2>
+  <p>Se ocupa de crear un programa que permita calcular la calificación final de un alumno utilizando las calificaciones obtenidas en actividades, examen y proyecto, haber si aprobó el wachin.</p>
+  <p>El programa deberá calcular la calificación final aplicando los porcentajes correspondientes y posteriormente indicar si el alumno aprobó o no la materia.</p>
+
+  <h2>Análisis del problema</h2>
+  <h3>Datos de entrada</h3>
+  <ul>
+    <li>Calificación de actividades.</li>
+    <li>Calificación del examen.</li>
+    <li>Calificación del proyecto.</li>
+  </ul>
+  <h3>Proceso</h3>
+  <ol>
+    <li>Multiplicar la calificación de actividades por 30%.</li>
+    <li>Multiplicar la calificación del examen por 40%.</li>
+    <li>Multiplicar la calificación del proyecto por 30%.</li>
+    <li>Sumar los tres resultados.</li>
+    <li>Comparar la calificación final con 6.</li>
+  </ol>
+  <h3>Datos de salida</h3>
+  <ul>
+    <li>Calificación final.</li>
+    <li>Mensaje indicando "Aprobado" o "Reprobado".</li>
+  </ul>
+
+  <h2>Algoritmo</h2>
+  <ol>
+    <li>Inicio.</li>
+    <li>Solicitar la calificación de actividades.</li>
+    <li>Solicitar la calificación del examen.</li>
+    <li>Solicitar la calificación del proyecto.</li>
+    <li>Calcular el 30% de la calificación de actividades.</li>
+    <li>Calcular el 40% de la calificación del examen.</li>
+    <li>Calcular el 30% de la calificación del proyecto.</li>
+    <li>Sumar los tres resultados para obtener la calificación final.</li>
+    <li>Si la calificación final es mayor o igual a 6, mostrar "Aprobado".</li>
+    <li>Si la calificación final es menor que 6, mostrar "Reprobado".</li>
+    <li>Mostrar la calificación final.</li>
+    <li>Fin.</li>
+  </ol>
+
+  <h2>Diagrama de flujo</h2>
+  <p><a href="https://www.canva.com/design/DAHWi_b7hJQ/AE44Z2BZrxJadsBHB1EN4A/edit">Ver el diagrama de flujo en Canva</a></p>
+
+  <h2>Pseudocódigo</h2>
+  <pre>
+Inicio
+
+    Escribir "Ingresa la calificación de actividades:"
+    Leer actividades
+
+    Escribir "Ingresa la calificación del examen:"
+    Leer examen
+
+    Escribir "Ingresa la calificación del proyecto:"
+    Leer proyecto
+
+    final (actividades * 0.30) + (examen * 0.40) + (proyecto * 0.30)
+
+    Si final ≥ 6 Entonces
+        Escribir "Aprobado"
+    SiNo
+        Escribir "Reprobado"
+    FinSi
+
+    Escribir "Calificación final: ", final
+
+Fin
+  </pre>
+</body>
+</html>
