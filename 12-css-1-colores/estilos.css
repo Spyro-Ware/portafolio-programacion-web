@@ -1,35 +1,101 @@
+/* COLORES DE TEXTO Y FONDO */
+
 body {
-    background-color: #e8f0fe;
-    color: #1a2a4a;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 40px;
+    background-color: #17191C;
+    color: #E5E5E5;
 }
 
-h1 {
-    background-color: #0b3d91;
-    color: #ffffff;
-    padding: 15px;
-    text-align: center;
+#encabezado {
+    background-color: #22252A;
 }
 
-h2 {
-    background-color: #f2c94c;
-    color: #333333;
-    padding: 10px;
+#titulo {
+    color: white;
 }
 
-p {
-    background-color: #ffffff;
-    color: #222222;
-    padding: 12px;
+#subtitulo {
+    color: #BFC3C9;
 }
 
-.destacado {
-    background-color: #d4edda;
-    color: #155724;
+#menu {
+    background-color: #303339;
 }
 
-.nota {
-    background-color: #f8d7da;
-    color: #721c24;
+a {
+    color: #E5E5E5;
+}
+
+#bienvenido {
+    color: #C77B85;
+}
+
+.tarjeta {
+    background-color: rgba(39, 42, 47, 0.85);
+}
+
+.seccion {
+    color: #C77B85;
+}
+
+.titulo-noticias {
+    color: #FFFFFF;
+}
+
+.introduccion-noticias {
+    color: #BFC3C9;
+}
+
+.etiqueta {
+    color: #C77B85;
+}
+
+.noticia-principal {
+    background-color: #22252A;
+}
+
+.noticia-principal h2 {
+    color: #FFFFFF;
+}
+
+.noticia-secundaria {
+    background-color: #22252A;
+}
+
+.noticia-secundaria h3 {
+    color: #FFFFFF;
+}
+
+.noticia-secundaria p {
+    color: #BFC3C9;
+}
+
+.opinion {
+    background-color: #303339;
+}
+
+.opinion h2 {
+    color: #FFFFFF;
+}
+
+.opinion p {
+    color: #E5E5E5;
+}
+
+#pie {
+    background-color: #22252A;
+}
+
+#contacto {
+    background-color: #22252A;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+    background-color: #17191C;
+    color: #FFFFFF;
+}
+
+.btn-enviar {
+    background-color: #C77B85;
+    color: #FFFFFF;
 }
